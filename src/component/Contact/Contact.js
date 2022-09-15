@@ -72,24 +72,24 @@ const Contact = () => {
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname' />
+                    <input type='text' name='fullname' required />
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
-                    <input type='number' name='phone' />
+                    <input type='number' name='phone' required />
                   </div>
                 </div>
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email' />
+                  <input type='email' name='email' required />
                 </div>
                 <div className='input'>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject' />
+                  <input type='text' name='subject' required />
                 </div>
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message'></textarea>
+                  <textarea cols='30' rows='10' name='message' required></textarea>
                 </div>
                 <button className='btn_shadow'>
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
