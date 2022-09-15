@@ -5,7 +5,6 @@ const ResumeApi = [
     year: "Savitribai Phule Pune University (2020- 2022)",
     title: "Master of Computer Science (MCS)",
     desc: "Abasaheb Garware College",
-    rate: "Pursuing",
   },
   {
     id: 2,
@@ -13,7 +12,6 @@ const ResumeApi = [
     year: "Savitribai Phule Pune University (2017 - 2020) ",
     title: "Bachelor of Computer Science (BCS)",
     desc: "Haribhai V. Desai College",
-    rate: "63.40%",
   },
   {
     id: 3,
@@ -21,7 +19,6 @@ const ResumeApi = [
     year: "The Maharashtra State Board of Secondary & Higher Secondary Education, Pune (2015 - 2017) ",
     title: "HSC",
     desc: "Bharat English High School and Junior College",
-    rate: "53.53%",
   },
   {
     id: 4,
@@ -29,7 +26,6 @@ const ResumeApi = [
     year: "The Maharashtra State Board of Secondary & Higher Secondary Education, Pune (2015 - 2017) ",
     title: "SSC",
     desc: "Modern High School",
-    rate: "79.20%",
   },
 ]
 
