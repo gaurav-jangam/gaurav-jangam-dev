@@ -19,6 +19,7 @@ const ResumeApi2 = [
     year: "Web Development(2017 - 2020) ",
     title: "Freelancing",
     desc: "Communicate with the customer to understand the requirements Built web pages according to customers' needs.",
+    rate: 'Freelancing'
   },
 ]
 
