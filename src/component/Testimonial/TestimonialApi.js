@@ -36,7 +36,7 @@ const TestimonialApi = [
     click: "Click Here",
     name2: "INSTAGRAM CLONE BUILD WITH REACTJS",
     date: "July 2020",
-    desc: "Instagram clone is same as instagram, user can an post image with caption, also can insert, update, delete, edit, remove post and other users can see the post live as well as comment and all user can see that, but if you want to comment or post then you need to login or need to create a new account I have made this Instagram Clone by watching online tutorials.",
+    desc: "Instagram clone is same as instagram, user can an post image with caption, also can insert, update, delete, edit, remove post and other users can see the post live as well as comment and all user can see that, but if you want to comment or post then you need to login. I have made this Instagram Clone by watching online tutorials.",
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const TestimonialApi = [
     click: "Click Here",
     name2: "WHATSAPP CLONE BUILD WITH REACTJS",
     date: "May 2020",
-    desc: "Whats App clone is same as WhatsApp,User have to create group after creating a group you can chat in the group, User need to setup profile manually from code otherwise it will show random image, user can see the if other users have been seen the message then we can see the tick color will change to blue In this project I have use google login.",
+    desc: "Whats App clone is same as WhatsApp,User have to create group after creating a group you can chat in the group, User need to setup profile manually from code otherwise it will show random image, In this project I have use google login.",
   },
 ]
 
