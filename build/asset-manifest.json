@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66f26d1b.css",
+    "main.js": "/static/js/main.fab544e2.js",
+    "static/js/787.ebaef199.chunk.js": "/static/js/787.ebaef199.chunk.js",
+    "static/media/logo.gif": "/static/media/logo.c837af1867f39a2ff722.gif",
+    "static/media/personal.png": "/static/media/personal.be631fc77063e2918286.png",
+    "static/media/insta.png": "/static/media/insta.7f8e2e3d92b40fadd0ec.png",
+    "static/media/amazon.png": "/static/media/amazon.fe2df5bfad6d1b69b52b.png",
+    "static/media/portfolio.png": "/static/media/portfolio.5361c0e7b97a4cf6ce9a.png",
+    "static/media/seafoodstore.png": "/static/media/seafoodstore.fff59c2f12303f47779b.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.07b107222238911aa349.png",
+    "static/media/cortica.jpg": "/static/media/cortica.184dcef4530dcac82ff7.jpg",
+    "static/media/bsf.jpg": "/static/media/bsf.3e55c6e6e497f49d6ae3.jpg",
+    "static/media/contact1.png": "/static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/Gaurav-Jangam-Resume.pdf": "/static/media/Gaurav-Jangam-Resume.3b8a170bbc8dcdc3866b.pdf",
+    "index.html": "/index.html",
+    "main.66f26d1b.css.map": "/static/css/main.66f26d1b.css.map",
+    "main.fab544e2.js.map": "/static/js/main.fab544e2.js.map",
+    "787.ebaef199.chunk.js.map": "/static/js/787.ebaef199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f26d1b.css",
+    "static/js/main.fab544e2.js"
+  ]
+}

@@ -1,0 +1,106 @@
+.Resume .heading h1 {
+  font-size: 2.5rem;
+}
+
+.Resume .content {
+  max-width: 85%;
+  margin: auto;
+}
+
+.Resume .box {
+  padding: 2.5rem;
+}
+
+.Resume hr {
+  margin: 1.875rem 0 1.875rem 0;
+  border: 0.0625rem solid #e3e9ed;
+  background-color: #e3e9ed;
+}
+
+.Resume .rate .btn_shadow {
+  color: #ff014f;
+  padding: 0.9375rem 1.875rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.Resume p {
+  font-size: 1.125rem;
+  transition: 0.5s;
+}
+
+.Resume .box {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.Resume .btn_shadow:hover {
+  transform: translate(0);
+}
+
+.Resume .box:hover .btn_shadow {
+  background: #ff3a75;
+  box-shadow: none;
+  color: white;
+}
+
+.Resume .box:hover p {
+  color: white;
+}
+
+.Resume .content-section {
+  position: relative;
+}
+
+.Resume .left {
+  position: relative;
+}
+
+.Resume .left::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 0;
+  width: 5px;
+  background: #d9dee2;
+  z-index: -2;
+}
+
+.Resume .box::after {
+  content: "";
+  position: absolute;
+  top: 13%;
+  left: -8%;
+  height: 0.3125rem;
+  width: 3.125rem;
+  background: #d9dee2;
+}
+
+.Resume .box::before {
+  content: "";
+  position: absolute;
+  top: 11%;
+  left: -10%;
+  height: 0.625rem;
+  width: 0.625rem;
+  background: #fff;
+  border: 5px solid #d9dee2;
+  border-radius: 50%;
+  z-index: 5;
+  transition: 0.5s;
+}
+
+.Resume .box:hover.box:before {
+  background: #ff3a75;
+}
+
+@media (max-width: 768px) {
+  .Resume .d_flex {
+    flex-direction: column;
+  }
+
+  .Resume .left::after {
+    top: 14%;
+    height: 105vh;
+  }
+}

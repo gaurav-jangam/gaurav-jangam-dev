@@ -1,0 +1,20 @@
+.features .box {
+  padding: 3.125rem;
+}
+
+.features .box h2 {
+  margin: 1.25rem 0 1.25rem 0;
+}
+
+.arrow-hide:hover {
+  opacity: 1;
+}
+
+.features .box p {
+  word-spacing: 0.125rem;
+  transition: 0.5s;
+}
+
+.features .box:hover p {
+  color: white;
+}

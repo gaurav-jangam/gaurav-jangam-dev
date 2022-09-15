@@ -1,0 +1,176 @@
+.Portfolio {
+  position: relative;
+}
+
+.Portfolio .box {
+  border-radius: 0.625rem;
+  position: relative;
+}
+
+.Portfolio .box:hover {
+  background: none;
+  transform: translateY(-0);
+}
+
+.Portfolio .img {
+  border-radius: 0.625rem;
+  height: 18.75rem;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.Portfolio img {
+  width: 100%;
+  border-radius: 0.625rem;
+  transition: 0.5s;
+}
+
+.Portfolio .box .img:hover img {
+  transform: scale(1.2);
+}
+
+.Portfolio .category {
+  margin: 1.25rem 0 1.875rem 0;
+  text-transform: uppercase;
+}
+
+.Portfolio .category span {
+  color: #ff014f;
+  font-size: 0.8125rem;
+  letter-spacing: 0.125rem;
+  font-weight: 500;
+}
+
+.Portfolio .arrow {
+  position: absolute;
+  right: 1.875rem;
+  bottom: 11%;
+  transform: rotate(-45deg);
+  color: #ff014f;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.Portfolio .title:hover .arrow {
+  opacity: 1;
+}
+
+.Portfolio h2 {
+  font-size: 1.125rem;
+  transition: 0.5s;
+  padding-bottom: 1.875rem;
+}
+
+.Portfolio .box:hover h2 {
+  color: #ff014f;
+}
+
+.Portfolio .box:hover {
+  color: black;
+}
+
+/*------------popup--------*/
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 0.625rem 1.25rem;
+  display: block;
+  margin: 6.25rem auto 0;
+  font-size: 1.125rem;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+}
+
+.overlay {
+  background-color: #ecf0f3;
+}
+
+.modal-content {
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  line-height: 1.4;
+  background: #f0f3f5;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.1875rem;
+  max-width: 85%;
+  min-width: 60%;
+  z-index: 9999;
+  box-shadow: 0.25rem 0.25rem 0.5rem #cbcbcb, -0.25rem -0.25rem 0.5rem #ffffff;
+  padding: 3.125rem;
+  border-radius: 0.625rem;
+}
+
+.modal-text {
+  padding: 0 6.25rem 0 3.125rem;
+}
+
+.modal-text h1 {
+  margin: 1.25rem 0 1.25rem 0;
+  font-size: 1.875rem;
+}
+
+.modal-text p {
+  font-size: 1.0625rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.5625rem;
+}
+
+.modal-text button {
+  margin-right: 1.25rem;
+  color: #ff014f;
+}
+
+.modal-text button i {
+  margin-left: 0.625rem;
+}
+
+.modal-text button.close-modal {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0 0;
+  font-size: 1.25rem;
+}
+
+.modal-text button.close-modal i {
+  margin: 0;
+}
+
+/*------------popup--------*/
+@media (max-width: 48rem) {
+
+  .modal,
+  .overlay {
+    overflow: scroll;
+  }
+
+  .modal .modal-img {
+    margin: 3.125rem 0 3.125rem 0;
+  }
+
+  .modal-content {
+    flex-direction: column;
+  }
+
+  .modal .right,
+  .modal .left {
+    padding: 0;
+  }
+}
