@@ -143,3 +143,9 @@ article.nextSlide {
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .Testimonial .slide {
+    height: 75rem;
+  }
+}
