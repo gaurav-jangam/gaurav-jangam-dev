@@ -119,6 +119,6 @@ header ul li a:hover {
   }
 
   .header.active {
-    height: 15vh;
+    height: 12vh;
   }
 }
