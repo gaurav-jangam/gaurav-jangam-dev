@@ -5,7 +5,7 @@ import TestimonialApi from "./TestimonialApi"
 import { BiCaretLeft, BiCaretRight } from 'react-icons/bi'
 
 const Testimonial = () => {
-  const [data, setdata] = useState(TestimonialApi)
+  const [data] = useState(TestimonialApi)
   const [index, setIndex] = useState(0)
   useEffect(() => {
     const lastIndex = data.length - 1

@@ -1,6 +1,7 @@
 import React from "react"
 import "./Resume.css"
 import ResumeApi from "./ResumeApi"
+import ResumeApi2 from "./ResumeApi2"
 import Card from "./Card"
 import CV from '../../assets/Gaurav-Jangam-Resume.pdf'
 import { AiOutlineDownload } from 'react-icons/ai'
@@ -26,9 +27,7 @@ const Resume = () => {
 
               <div className='content'>
                 {ResumeApi.map((val, id) => {
-                  if (val.category === "education") {
-                    return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
-                  }
+                  return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
                 })}
               </div>
             </div>
@@ -38,12 +37,10 @@ const Resume = () => {
                 <h1>Job Experience</h1>
               </div>
               <div className='content'>
-                {ResumeApi.map((val, index) => {
-                  if (val.category === "experience") {
-                    return (
-                      <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
-                    )
-                  }
+                {ResumeApi2.map((val, index) => {
+                  return (
+                    <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                  )
                 })}
               </div>
             </div>
