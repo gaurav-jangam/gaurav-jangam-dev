@@ -33,7 +33,7 @@ const Home = () => {
         <div className='hero_btn d_flex'>
           <div className='col_1'>
             <h4>FIND WITH ME</h4>
-            <div className='button'>
+            <div className='button fi'>
               <a target='_blank' rel='noreferrer' href='https://github.com/gaurav-jangam/'>
                 <button className='btn_shadow'>
                   <FiGithub size={20} />
@@ -58,18 +58,20 @@ const Home = () => {
           </div>
           <div className='col_1'>
             <h4>Interested In</h4>
-            <button className='btn_shadow'>
-              <DiMongodb size={20} />
-            </button>
-            <button className='btn_shadow'>
-              <SiExpress size={20} />
-            </button>
-            <button className='btn_shadow'>
-              <DiReact size={20} />
-            </button>
-            <button className='btn_shadow'>
-              <DiNodejs size={20} />
-            </button>
+            <div className='button fi'>
+              <button className='btn_shadow'>
+                <DiMongodb size={20} />
+              </button>
+              <button className='btn_shadow'>
+                <SiExpress size={20} />
+              </button>
+              <button className='btn_shadow'>
+                <DiReact size={20} />
+              </button>
+              <button className='btn_shadow'>
+                <DiNodejs size={20} />
+              </button>
+            </div>
           </div>
         </div>
       </section>
