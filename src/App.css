@@ -175,6 +175,12 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .Portfolio .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2.188rem;
+  }
+
   .left,
   .right {
     width: 100%;

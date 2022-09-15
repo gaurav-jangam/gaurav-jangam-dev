@@ -119,7 +119,7 @@ article.nextSlide {
   }
 
   .Testimonial .left img {
-    width: 10rem;
+    width: 100%;
     border-radius: 0.625rem;
     margin-right: 1.25rem;
   }
@@ -137,5 +137,9 @@ article.nextSlide {
 
   .Testimonial .quote {
     display: none;
+  }
+
+  .Testimonial .left {
+    width: 100%;
   }
 }
