@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../../assets/logo.gif"
+import logo from "../../assets/logo.png"
 import { IoMenu } from 'react-icons/io5'
 import { IoIosClose } from 'react-icons/io'
 
@@ -32,7 +32,7 @@ const Header = () => {
                 <a href='#resume'>resume</a>
               </li>
               <li>
-                <a href='#work'>portfolio</a>
+                <a href='#work'>Company Work</a>
               </li>
               <li>
                 <a href='#projects'>projects</a>

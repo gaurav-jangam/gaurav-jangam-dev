@@ -1,5 +1,22 @@
-import React from "react"
+import React, { useState } from "react";
 import { SiFreelancer } from 'react-icons/si'
+
+
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 150) : text}
+      <span onClick={toggleReadMore} className="read-or-hide">
+        {isReadMore ? "...read more" : " show less"}
+      </span>
+    </p>
+  );
+};
 
 const Card = (props) => {
 
@@ -21,7 +38,13 @@ const Card = (props) => {
 
         </div>
         <hr />
-        <p>{props.desc}</p>
+        {
+          props.cat === 'experience' ?
+            <ReadMore>
+              {props.desc}
+            </ReadMore> :
+            <p>{props.desc}</p>
+        }
       </div>
     </>
   )

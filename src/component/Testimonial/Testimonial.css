@@ -2,6 +2,10 @@
   margin: 0.9375rem 0 0 0;
 }
 
+.Testimonial .btn_shadow {
+  cursor: pointer;
+}
+
 .Testimonial .d_flex {
   display: flex;
   justify-content: unset;

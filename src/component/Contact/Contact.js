@@ -46,18 +46,18 @@ const Contact = () => {
                         <FiGithub size={20} />
                       </button>
                     </a>
-                    <a target='_blank' rel='noreferrer' href='https://www.facebook.com/gaurav.jangam.1/'>
+                    <a target='_blank' rel='noreferrer' href='https://www.instagram.com/im_gauravvvv/'>
                       <button className='btn_shadow'>
                         <FiInstagram size={20} />
                       </button>
                     </a>
-                    <a target='_blank' rel='noreferrer' href='https://www.instagram.com/im_gauravvvv/'>
+                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/gaurav-jangam/'>
                       <button className='btn_shadow'>
                         <FiLinkedin size={20} />
                       </button>
                     </a>
                     <br />
-                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/gaurav-jangam/'>
+                    <a target='_blank' rel='noreferrer' href='https://www.facebook.com/gaurav.jangam.1/'>
                       <button className='btn_shadow'>
                         <FiFacebook size={20} />
                       </button>

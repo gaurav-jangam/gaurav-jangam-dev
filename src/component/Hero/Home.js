@@ -1,7 +1,6 @@
 import React from "react"
 import "./Home.css"
 import hero from "../../assets/personal.png"
-import { Typewriter } from "react-simple-typewriter"
 import { FiFacebook, FiInstagram, FiLinkedin, FiGithub } from 'react-icons/fi'
 import { SiExpress } from 'react-icons/si'
 import { DiMongodb, DiReact, DiNodejs } from 'react-icons/di'
@@ -19,7 +18,7 @@ const Home = () => {
             <h2>
               a
               <span>
-                <Typewriter words={[" Professional Coder.", " Software Developer.", " WordPress Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                &nbsp; "Software Developer."
               </span>
             </h2>
 
@@ -39,17 +38,17 @@ const Home = () => {
                   <FiGithub size={20} />
                 </button>
               </a>
-              <a target='_blank' rel='noreferrer' href='https://www.facebook.com/gaurav.jangam.1/'>
+              <a target='_blank' rel='noreferrer' href='https://www.instagram.com/im_gauravvvv/'>
                 <button className='btn_shadow'>
                   <FiInstagram size={20} />
                 </button>
               </a>
-              <a target='_blank' rel='noreferrer' href='https://www.instagram.com/im_gauravvvv/'>
+              <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/gaurav-jangam/'>
                 <button className='btn_shadow'>
                   <FiLinkedin size={20} />
                 </button>
               </a>
-              <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/gaurav-jangam/'>
+              <a target='_blank' rel='noreferrer' href='https://www.facebook.com/gaurav.jangam.1/'>
                 <button className='btn_shadow'>
                   <FiFacebook size={20} />
                 </button>

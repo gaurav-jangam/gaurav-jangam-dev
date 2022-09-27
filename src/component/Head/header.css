@@ -1,4 +1,5 @@
 header {
+  font-family: "Poppins", sans-serif;
   z-index: 6;
   width: 100%;
   position: fixed;
@@ -23,7 +24,7 @@ header ul li a {
   transition: 0.5s;
   font-size: 0.8125rem;
   font-weight: 500;
-  letter-spacing: 0.0625rem;
+  letter-spacing: 0.05rem;
 }
 
 header ul li a:hover {
@@ -54,7 +55,7 @@ header ul li a:hover {
 }
 
 .header.active {
-  height: 15vh;
+  height: 10.5vh;
   position: fixed;
   top: 0;
   width: 100%;

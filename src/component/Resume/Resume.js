@@ -39,7 +39,7 @@ const Resume = () => {
               <div className='content'>
                 {ResumeApi2.map((val, index) => {
                   return (
-                    <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                    <Card key={index} cat={val.category} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
                   )
                 })}
               </div>

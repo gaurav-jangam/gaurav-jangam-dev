@@ -1,3 +1,8 @@
+.read-or-hide {
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+
 .Resume .heading h1 {
   font-size: 2.5rem;
 }
@@ -69,7 +74,7 @@
 .Resume .box::after {
   content: "";
   position: absolute;
-  top: 13%;
+  top: 2rem;
   left: -8%;
   height: 0.3125rem;
   width: 3.125rem;
@@ -79,7 +84,7 @@
 .Resume .box::before {
   content: "";
   position: absolute;
-  top: 11%;
+  top: 1.5rem;
   left: -10%;
   height: 0.625rem;
   width: 0.625rem;

@@ -55,6 +55,7 @@
 }
 
 .Portfolio h2 {
+  width: 80%;
   font-size: 1.125rem;
   transition: 0.5s;
   padding-bottom: 1.875rem;
