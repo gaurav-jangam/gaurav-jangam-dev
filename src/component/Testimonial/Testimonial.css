@@ -6,6 +6,11 @@
   cursor: pointer;
 }
 
+.btn-links {
+  font-size: 1rem;
+  margin: 0.1rem;
+}
+
 .Testimonial .d_flex {
   display: flex;
   justify-content: unset;
@@ -45,7 +50,7 @@
 .Testimonial .content h3 {
   font-size: 1.125rem;
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .Testimonial .slide_button {

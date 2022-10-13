@@ -1,9 +1,10 @@
 import React from "react"
-import { FaQuoteRight } from 'react-icons/fa'
+import { FaGithubAlt, FaQuoteRight } from 'react-icons/fa'
+import { CgMediaLive } from 'react-icons/cg'
 import TestimonialApi from "./TestimonialApi"
 
 
-const Slide = ({ id, image, name, subString, click, link, name2, date, desc, valueIndex, index }) => {
+const Slide = ({ id, image, name, subString, subString2, click, link, link2, name2, date, desc, valueIndex, index }) => {
   let position = "nextSlide"
   if (valueIndex === index) {
     position = "activeSlide"
@@ -21,9 +22,17 @@ const Slide = ({ id, image, name, subString, click, link, name2, date, desc, val
           </div>
           <div className='details mtop'>
             <span className='primary_color'>{name}</span>
-            <h2>{subString}</h2>
+            <h2>{click}</h2>
             <br />
-            <label> <a className='project-btn' rel='noreferrer' target='_blank' href={link}>{click}</a></label>
+            <div className="btn-link-grp">
+              <label className="btn-links"> <a className='project-btn' rel='noreferrer' target='_blank' href={link}>{subString} <CgMediaLive size={15} /></a></label>
+              <br />
+              <br />
+              {link2 ? (
+                <label className="btn-links"> <a className='project-btn' rel='noreferrer' target='_blank' href={link2}>{subString2} <FaGithubAlt size={15} /></a></label>
+              ) : null}
+            </div>
+
           </div>
         </div>
 
